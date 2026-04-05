@@ -8,7 +8,7 @@ Science is one of our most powerful ways of understanding the world, but it ofte
 
 Such science communication can take many forms. From traditional science reporting, podcasting, museums, policy, to social media content creation, immersive experiences, public engagement and opening up the process of science itself (open science).
 
-Bla Bla Bla
+Bla Bla Bla Bla Bla
 
 # Team Members
 _Shweata needs to learn some HTML to add images of people_
