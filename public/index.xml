@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome To Science Communication Society on scicommsoc Imperial</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome To Science Communication Society on scicommsoc Imperial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 scicommsoc</copyright>
+    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why Did We Start scicommsoc?</title>
+      <link>http://localhost:1313/blog/why-did-we-start-soc/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/why-did-we-start-soc/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>London Events in Feb 2026</title>
+      <link>http://localhost:1313/london-events/feb-2026/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/london-events/feb-2026/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/london-events/feb-2026/featured.png" />
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
