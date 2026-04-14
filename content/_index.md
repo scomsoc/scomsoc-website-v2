@@ -1,5 +1,5 @@
 ---
-title: "Welcome To Science Communication Society"
+title: "Welcome To the Science Communication Society"
 description: 'Welcome'
 ---
 

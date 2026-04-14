@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SciComm Resources on scicommsoc Imperial</title>
+    <title>SciComm Resources on SCS</title>
     <link>http://localhost:1313/resources/</link>
-    <description>Recent content in SciComm Resources on scicommsoc Imperial</description>
+    <description>Recent content in SciComm Resources on SCS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2026 scicommsoc</copyright>
+    <copyright>© 2026 Science Communication Society</copyright>
     <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>

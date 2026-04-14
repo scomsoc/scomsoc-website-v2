@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Events in London on scicommsoc Imperial</title>
+    <title>Events in London on SCS</title>
     <link>http://localhost:1313/london-events/</link>
-    <description>Recent content in Events in London on scicommsoc Imperial</description>
+    <description>Recent content in Events in London on SCS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2026 scicommsoc</copyright>
+    <copyright>© 2026 Science Communication Society</copyright>
     <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/london-events/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
