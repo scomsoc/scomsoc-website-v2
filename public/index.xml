@@ -39,5 +39,65 @@
       
     </item>
     
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/professional-body/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/professional-body/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/professional-body/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/professional-body/events/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/professional-body/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/professional-body/projects/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/student-body/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/student-body/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body/events/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/student-body/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body/projects/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

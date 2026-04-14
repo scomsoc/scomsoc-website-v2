@@ -1,97 +1,71 @@
 # -- Main Menu --
-# The main menu is displayed in the header at the top of the page.
-# Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
-# The simplest menu configuration is to provide:
-#   name = The name to be displayed for this menu link
-#   pageRef = The identifier of the page or section to link to
-#
-# By default the menu is ordered alphabetically. This can be
-# overridden by providing a weight value. The menu will then be
-# ordered by weight from lowest to highest.
 
 [[main]]
-  name = "💬 About us"
-  pageRef = "about"
+  identifier = "student-body"
+  name = "Student Body"
+  pageRef = "student-body"
   weight = 10
 
 [[main]]
-  name = "📣 Join Team "
-  url = "https://forms.gle/kXJoqAaT7Y82gpR18"
-  weight = 60
+  identifier = "student-body-about"
+  name = "About us"
+  parent = "student-body"
+  pageRef = "student-body/about"
+  weight = 11
 
 [[main]]
-  name = "📅 Events"
-  weight = 30  
+  identifier = "student-body-events"
+  name = "Events"
+  parent = "student-body"
+  pageRef = "student-body/events"
+  weight = 12
 
 [[main]]
-  name = "🎟️ Cool Events in London"
-  parent = "📅 Events"
-  pageRef = "london-events"
+  identifier = "student-body-projects"
+  name = "Projects"
+  parent = "student-body"
+  pageRef = "student-body/projects"
+  weight = 13
+
+
+[[main]]
+  identifier = "professional-body"
+  name = "Professional Body"
+  pageRef = "professional-body"
   weight = 20
 
 [[main]]
-  name = " 🎉 SciComSoc Events"
-  pageRef =  "scicommsoc-events"
-  parent = "📅 Events"
-  weight = 20
+  identifier = "professional-body-about"
+  name = "About us"
+  parent = "professional-body"
+  pageRef = "professional-body/about"
+  weight = 21
 
 [[main]]
-  name = "📚 Resources"
-  pageRef = 'resources'
-  weight = 40
+  identifier = "professional-body-events"
+  name = "Events"
+  parent = "professional-body"
+  pageRef = "professional-body/events"
+  weight = 22
 
 [[main]]
-  name = " 📝 Blog"
-  pageRef = "blog"
-  weight = 50
-  
-
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
-
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+  identifier = "professional-body-projects"
+  name = "Projects"
+  parent = "professional-body"
+  pageRef = "professional-body/projects"
+  weight = 23
 
 
 # -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
 
 [[footer]]
-   name = " 📝 Meeting Notes"
-   pageRef = "meeting-notes"
-   weight = 10
+  identifier = "meeting-notes"
+  name = "Meeting Notes"
+  pageRef = "meeting-notes"
+  weight = 10
 
- [[footer]]
-   name = " 📧 Contact Us"
-   url = 'mailto:scicommsocimperial@gmail.com'
-   weight = 20
+[[footer]]
+  identifier = "contact-us"
+  name = "Contact Us"
+  url = "mailto:scicommsocimperial@gmail.com"
+  weight = 20

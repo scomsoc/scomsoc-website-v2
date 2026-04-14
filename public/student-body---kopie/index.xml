@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>What does scicommsoc Do? on scicommsoc Imperial</title>
+    <link>http://localhost:1313/student-body---kopie/</link>
+    <description>Recent content in What does scicommsoc Do? on scicommsoc Imperial</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 scicommsoc</copyright>
+    <atom:link href="http://localhost:1313/student-body---kopie/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/student-body---kopie/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body---kopie/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/student-body---kopie/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body---kopie/events/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>What does scicommsoc Do?</title>
+      <link>http://localhost:1313/student-body---kopie/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body---kopie/projects/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
