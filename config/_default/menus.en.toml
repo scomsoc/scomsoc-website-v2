@@ -1,6 +1,40 @@
 # -- Main Menu --
 
 [[main]]
+  identifier = "what-we-do"
+  name = "What we do"
+  pageRef = "what-we-do"
+  weight = 6
+
+[[main]]
+  identifier = "what-we-do-our-mission"
+  name = "Our mission"
+  parent = "what-we-do"
+  pageRef = "what-we-do/our-mission"
+  weight = 7
+
+[[main]]
+  identifier = "what-we-do-how-we-work"
+  name = "How we work"
+  parent = "what-we-do"
+  pageRef = "what-we-do/how-we-work"
+  weight = 8
+
+[[main]]
+  identifier = "what-we-do-stakeholders-and-partners"
+  name = "Stakeholders and partners"
+  parent = "what-we-do"
+  pageRef = "what-we-do/stakeholders-and-partners"
+  weight = 9
+
+[[main]]
+  identifier = "what-we-do-open-science"
+  name = "Open science"
+  parent = "what-we-do"
+  pageRef = "what-we-do/open-science"
+  weight = 10
+
+[[main]]
   identifier = "student-body"
   name = "Student Body"
   pageRef = "student-body"
