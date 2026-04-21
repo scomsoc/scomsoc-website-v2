@@ -100,8 +100,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.f9801cf9848d0b86a343621d44481a007dcb93a0deb1e749dd92d111d51a2934c62534bc826b7c0b04a399d773b5b914de5fa4e2f45621d6e254dd9639945f27.css"
-    integrity="sha512-&#43;YAc&#43;YSNC4ajQ2IdREgaAH3Lk6DesedJ3ZLREdUaKTTGJTS8gmt8CwSjmddztbkU3l&#43;k4vRWIdbiVN2WOZRfJw==">
+    href="/css/main.bundle.min.61de6f956a77aeae89b940b578fe4e39885bbe4de5e95283d96ab1602b77cd8c07d8c1e681c0c708a1e56102e9a918956be0453719c15b77ea0770ac52382426.css"
+    integrity="sha512-Yd5vlWp3rq6JuUC1eP5OOYhbvk3l6VKD2WqxYCt3zYwH2MHmgcDHCKHlYQLpqRiVa&#43;BFNxnBW3fqB3CsUjgkJg==">
 
   
   
@@ -944,28 +944,17 @@
         
         <div class="fixed inset-x-0 top-0 -z-10">
           
-          
-
-          
-
-          
-            
-              
-              
-            
-          
-
-          
-            
-            
-            
-
-            <img
-              id="background-image"
+            <video
+              id="background-video"
               class="nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
-              src="/IMAGE.png"
-              role="presentation"
-              >
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="auto"
+              role="presentation">
+              <source src="/videos/homepage-background.mp4" type="video/mp4">
+            </video>
 
             <div
               class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
@@ -982,10 +971,20 @@
             <div class="homepage-hero-inner">
               <p class="homepage-kicker">The Science Communication Society</p>
 
-              <h1>Science communication starts here.</h1>
+              <h1
+                class="homepage-rotating-title"
+                aria-label="Science communication starts here. The Science Communication Society.">
+                <span class="homepage-title-line homepage-title-one">
+                  Science communication starts here.
+                </span>
+
+                <span class="homepage-title-line homepage-title-two">
+                  Students engaging publics with science.
+                </span>
+              </h1>
 
               <p class="homepage-intro">
-                We bring together students, researchers and science communicators who want to make science clearer, more creative and more public.
+                We bring together students who want to make science clearer, more creative and more public.
               </p>
 
               <div class="homepage-actions">
@@ -1106,7 +1105,7 @@
     <header>
       <a
         
-          href="/student-body/about/"
+          href="/professional-body/about/"
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
@@ -1174,7 +1173,7 @@
     
   
   <span
-    id="views_student-body\about.md"
+    id="views_professional-body\about.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="views"
     >loading</span
@@ -1196,7 +1195,7 @@
     
   
   <span
-    id="likes_student-body\about.md"
+    id="likes_professional-body\about.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes"
     >loading</span
@@ -1273,7 +1272,7 @@
     <header>
       <a
         
-          href="/student-body/events/"
+          href="/professional-body/events/"
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
@@ -1341,7 +1340,7 @@
     
   
   <span
-    id="views_student-body\events.md"
+    id="views_professional-body\events.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="views"
     >loading</span
@@ -1363,7 +1362,7 @@
     
   
   <span
-    id="likes_student-body\events.md"
+    id="likes_professional-body\events.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes"
     >loading</span
@@ -1440,7 +1439,7 @@
     <header>
       <a
         
-          href="/student-body/projects/"
+          href="/professional-body/projects/"
         
         class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
         <h2>
@@ -1508,7 +1507,7 @@
     
   
   <span
-    id="views_student-body\projects.md"
+    id="views_professional-body\projects.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="views"
     >loading</span
@@ -1530,7 +1529,7 @@
     
   
   <span
-    id="likes_student-body\projects.md"
+    id="likes_professional-body\projects.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full -mt-[2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes"
     >loading</span
@@ -1598,8 +1597,8 @@
     src="/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
     integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
     data-blur-id="background-blur"
-    data-image-id="background-image"
-    data-image-url="/IMAGE.png"></script>
+    data-image-id="background-video"
+    data-image-url="/videos/homepage-background.mp4"></script>
 
   
 

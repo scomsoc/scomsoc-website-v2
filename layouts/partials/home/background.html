@@ -1,4 +1,4 @@
-{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ $homepageVideo := resources.Get "videos/homepage-background.mp4" }}
 
 <article class="prose dark:prose-invert max-w-full">
   <div class="relative">
@@ -6,48 +6,30 @@
     <div class="mx-auto max-w-7xl p-0">
       <div class="relative sm:overflow-hidden">
 
-        <!-- Background image -->
+        <!-- Background video -->
         <div class="fixed inset-x-0 top-0 -z-10">
-          {{ $useDefault := true }}
-          {{ $homepageImage := "" }}
-
-          {{ with .Site.Params.defaultBackgroundImage }}
-            {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-              {{ $homepageImage = resources.GetRemote . }}
-            {{ else }}
-              {{ $homepageImage = resources.Get . }}
-            {{ end }}
-          {{ end }}
-
-          {{ with .Site.Params.homepage.homepageImage }}
-            {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-              {{ $homepageImage = resources.GetRemote . }}
-              {{ $useDefault = false }}
-            {{ else }}
-              {{ $homepageImage = resources.Get . }}
-              {{ $useDefault = false }}
-            {{ end }}
-          {{ end }}
-
-          {{ if $homepageImage }}
-            {{ $style := "" }}
-            {{ $defaultPosition := cond $useDefault site.Params.imagePosition false }}
-            {{ with $.Params.imagePosition | default $defaultPosition }}
-              {{ $style = printf "object-position: %s;" . }}
-            {{ end }}
-
-            <img
-              id="background-image"
+          {{ if $homepageVideo }}
+            <video
+              id="background-video"
               class="nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
-              src="{{ $homepageImage.RelPermalink }}"
-              role="presentation"
-              {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="auto"
+              role="presentation">
+              <source src="{{ $homepageVideo.RelPermalink }}" type="video/mp4">
+            </video>
 
             <div
               class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
 
             <div
               class="from-neutral absolute inset-0 h-[1000px] bg-gradient-to-t to-neutral-100 opacity-60 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800"></div>
+          {{ else }}
+            <div style="position:fixed;top:100px;left:20px;z-index:9999;background:red;color:white;padding:12px;">
+              VIDEO NOT FOUND: expected assets/videos/homepage-background.mp4
+            </div>
           {{ end }}
         </div>
 
@@ -58,10 +40,20 @@
             <div class="homepage-hero-inner">
               <p class="homepage-kicker">The Science Communication Society</p>
 
-              <h1>Science communication starts here.</h1>
+              <h1
+                class="homepage-rotating-title"
+                aria-label="Science communication starts here. The Science Communication Society.">
+                <span class="homepage-title-line homepage-title-one">
+                  Science communication starts here.
+                </span>
+
+                <span class="homepage-title-line homepage-title-two">
+                  Students engaging publics with science.
+                </span>
+              </h1>
 
               <p class="homepage-intro">
-                We bring together students, researchers and science communicators who want to make science clearer, more creative and more public.
+                We bring together students who want to make science clearer, more creative and more public.
               </p>
 
               <div class="homepage-actions">
@@ -152,6 +144,6 @@
     src="{{ $backgroundBlur.RelPermalink }}"
     integrity="{{ $backgroundBlur.Data.Integrity }}"
     data-blur-id="background-blur"
-    data-image-id="background-image"
-    {{ if $homepageImage }}data-image-url="{{ $homepageImage.RelPermalink }}"{{ end }}></script>
+    data-image-id="background-video"
+    {{ if $homepageVideo }}data-image-url="{{ $homepageVideo.RelPermalink }}"{{ end }}></script>
 {{ end }}

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+
 /* ----------------------------- */
 /* Header CTA buttons */
 /* ----------------------------- */
@@ -59,43 +62,126 @@
 /* ----------------------------- */
 
 .homepage-hero {
-  min-height: 10vh;
+  min-height: 44vh;
   display: flex;
-  align-items: center;
-  padding: 0rem 1.5rem 3rem;
+  align-items: flex-start;
+  padding: 1rem 1.5rem 1.75rem;
   text-align: center;
 }
 
 .homepage-hero-inner {
-  max-width: 850px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
 .homepage-kicker {
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  margin-bottom: 0.6rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgb(37, 99, 235);
+  color: rgb(0, 61, 192);
 }
 
-.homepage-hero h1 {
-  margin: 0;
-  font-size: clamp(3rem, 7vw, 6.5rem);
-  line-height: 0.95;
-  letter-spacing: -0.06em;
+.homepage-rotating-title {
+  
+  position: relative;
+  margin: 0 auto;
+  min-height: clamp(12rem, 20vw, 17rem);
+  max-width: 1100px;
+  font-size: clamp(2.8rem, 5.8vw, 5.8rem);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  color: rgb(10, 15, 25);
+}
+
+.homepage-title-line {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-wrap: balance;
+  opacity: 0;
+  transform: translateY(0.2em);
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.homepage-title-one {
+  animation-name: homepageTitleOne;
+}
+
+.homepage-title-two {
+  animation-name: homepageTitleTwo;
+}
+
+@keyframes homepageTitleOne {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  42% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translateY(-0.15em);
+  }
+
+  92% {
+    opacity: 0;
+    transform: translateY(0.2em);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes homepageTitleTwo {
+  0% {
+    opacity: 0;
+    transform: translateY(0.2em);
+  }
+
+  42% {
+    opacity: 0;
+    transform: translateY(0.2em);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  92% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-0.15em);
+  }
 }
 
 .homepage-intro {
-  max-width: 680px;
-  margin: 1.5rem auto 0;
-  font-size: clamp(1.1rem, 2vw, 1.4rem);
-  line-height: 1.6;
+  max-width: 720px;
+  margin: 0.75rem auto 0;
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  line-height: 1.5;
+  color: rgba(10, 15, 25, 0.82);
 }
 
 .homepage-actions {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -209,6 +295,14 @@
   color: rgb(96, 165, 250);
 }
 
+.dark .homepage-rotating-title {
+  color: rgb(245, 245, 245);
+}
+
+.dark .homepage-intro {
+  color: rgba(245, 245, 245, 0.82);
+}
+
 .dark .homepage-button.primary {
   background: rgb(245, 245, 245);
   color: rgb(23, 23, 23);
@@ -251,11 +345,19 @@
   }
 
   .homepage-hero {
-    padding-top: 6rem;
-    min-height: 60vh;
+    padding-top: 1rem;
+    min-height: 55vh;
   }
 
-  .homepage-hero h1 {
-    font-size: clamp(2.5rem, 12vw, 4rem);
+  .homepage-rotating-title {
+    min-height: clamp(8rem, 34vw, 12rem);
+    font-size: clamp(2.25rem, 10vw, 4rem);
+    line-height: 0.95;
+    letter-spacing: -0.055em;
+  }
+
+  .homepage-intro {
+    margin-top: 0.75rem;
+    font-size: 1rem;
   }
 }
