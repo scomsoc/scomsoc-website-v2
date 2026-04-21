@@ -1,3 +1,7 @@
+/* ----------------------------- */
+/* Header CTA buttons */
+/* ----------------------------- */
+
 .header-cta-button {
   position: relative;
   display: inline-flex;
@@ -47,4 +51,211 @@
 .dark .header-cta-button:hover {
   color: rgb(23, 23, 23);
   border-color: rgb(96, 165, 250);
+}
+
+
+/* ----------------------------- */
+/* Custom homepage */
+/* ----------------------------- */
+
+.homepage-hero {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1.5rem 3rem;
+  text-align: center;
+}
+
+.homepage-hero-inner {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.homepage-kicker {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(37, 99, 235);
+}
+
+.homepage-hero h1 {
+  margin: 0;
+  font-size: clamp(3rem, 7vw, 6.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+.homepage-intro {
+  max-width: 680px;
+  margin: 1.5rem auto 0;
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  line-height: 1.6;
+}
+
+.homepage-actions {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.homepage-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.homepage-button:hover {
+  transform: translateY(-2px);
+}
+
+.homepage-button.primary {
+  background: rgb(23, 23, 23);
+  color: white;
+}
+
+.homepage-button.secondary {
+  border: 1px solid rgb(23, 23, 23);
+  color: rgb(23, 23, 23);
+}
+
+.homepage-section {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.section-heading {
+  max-width: 700px;
+  margin-bottom: 2rem;
+}
+
+.section-heading h2,
+.homepage-panel h2,
+.homepage-final-cta h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.homepage-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.homepage-card,
+.homepage-panel {
+  display: block;
+  padding: 1.5rem;
+  border: 1px solid rgba(23, 23, 23, 0.2);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  text-decoration: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.homepage-card:hover,
+.homepage-panel:hover {
+  transform: translateY(-3px);
+  border-color: rgb(37, 99, 235);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.homepage-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.homepage-split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.homepage-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: rgb(37, 99, 235);
+}
+
+.homepage-final-cta {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  background: rgba(37, 99, 235, 0.08);
+}
+
+
+/* ----------------------------- */
+/* Dark mode homepage */
+/* ----------------------------- */
+
+.dark .homepage-kicker {
+  color: rgb(96, 165, 250);
+}
+
+.dark .homepage-button.primary {
+  background: rgb(245, 245, 245);
+  color: rgb(23, 23, 23);
+}
+
+.dark .homepage-button.secondary {
+  border-color: rgb(245, 245, 245);
+  color: rgb(245, 245, 245);
+}
+
+.dark .homepage-card,
+.dark .homepage-panel {
+  border-color: rgba(245, 245, 245, 0.2);
+  background: rgba(23, 23, 23, 0.45);
+}
+
+.dark .homepage-card:hover,
+.dark .homepage-panel:hover {
+  border-color: rgb(96, 165, 250);
+  background: rgba(23, 23, 23, 0.7);
+}
+
+.dark .homepage-link {
+  color: rgb(96, 165, 250);
+}
+
+.dark .homepage-final-cta {
+  background: rgba(96, 165, 250, 0.12);
+}
+
+
+/* ----------------------------- */
+/* Mobile responsiveness */
+/* ----------------------------- */
+
+@media (max-width: 800px) {
+  .homepage-card-grid,
+  .homepage-split {
+    grid-template-columns: 1fr;
+  }
+
+  .homepage-hero {
+    padding-top: 6rem;
+    min-height: 60vh;
+  }
+
+  .homepage-hero h1 {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+  }
 }
