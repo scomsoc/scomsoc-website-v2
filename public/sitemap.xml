@@ -44,17 +44,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/student-body/projects/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/student-body/scomsoc-events/event-01/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/resources/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/student-body/scomsoc-events/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/student-body/scomsoc-events/event-01/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -85,11 +90,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/student-body/about/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/student-body/projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
