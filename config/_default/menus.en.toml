@@ -51,7 +51,7 @@
   identifier = "student-body-events"
   name = "Events"
   parent = "student-body"
-  pageRef = "student-body/events"
+  pageRef = "student-body/scomsoc-events"
   weight = 12
 
 [[main]]

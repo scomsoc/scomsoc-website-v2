@@ -21,12 +21,32 @@
     
     <item>
       <title>London Events in Feb 2026</title>
-      <link>http://localhost:1313/london-events/feb-2026/</link>
+      <link>http://localhost:1313/student-body/london-events/feb-2026/</link>
       <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/london-events/feb-2026/</guid>
+      <guid>http://localhost:1313/student-body/london-events/feb-2026/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/london-events/feb-2026/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/student-body/london-events/feb-2026/featured.png" />
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/student-body/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body/projects/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reshaping Academics, Science outreach for structural change</title>
+      <link>http://localhost:1313/student-body/scomsoc-events/event-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/student-body/scomsoc-events/event-01/</guid>
+      <description></description>
+      
     </item>
     
     <item>
@@ -75,26 +95,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/student-body/about/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>What does scicommsoc Do?</title>
-      <link>http://localhost:1313/student-body/events/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/student-body/events/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>What does scicommsoc Do?</title>
-      <link>http://localhost:1313/student-body/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/student-body/projects/</guid>
       <description></description>
       
     </item>
