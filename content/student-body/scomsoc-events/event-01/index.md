@@ -1,9 +1,12 @@
 ---
 title: Reshaping Academics, Science outreach for structural change
+date: 2026-04-29
 showDate: false
 showWordCount: false
 showReadingTime: false
 showAuthor: false
+showLikes: false
+showViews: false
 ---
 <img src = 'image.png'>
 

@@ -20,31 +20,11 @@
     </item>
     
     <item>
-      <title>London Events in Feb 2026</title>
-      <link>http://localhost:1313/student-body/london-events/feb-2026/</link>
-      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/student-body/london-events/feb-2026/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/student-body/london-events/feb-2026/featured.png" />
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/student-body/projects/</link>
+      <title>Student Body</title>
+      <link>http://localhost:1313/student-body/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/student-body/projects/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Reshaping Academics, Science outreach for structural change</title>
-      <link>http://localhost:1313/student-body/scomsoc-events/event-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/student-body/scomsoc-events/event-01/</guid>
+      <guid>http://localhost:1313/student-body/</guid>
       <description></description>
       
     </item>
@@ -85,16 +65,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/professional-body/projects/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>What does scicommsoc Do?</title>
-      <link>http://localhost:1313/student-body/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/student-body/about/</guid>
       <description></description>
       
     </item>
